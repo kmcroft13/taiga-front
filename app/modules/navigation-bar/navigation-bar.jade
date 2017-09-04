@@ -2,7 +2,7 @@ nav.navbar(ng-if="vm.isEnabledHeader")
     div.nav-left
         a.logo(
             ng-if="!vm.isAuthenticated"
-            href="https://taiga.io/",
+            href="https://www.box.com",
             title="{{'PROJECT.NAVIGATION.HOMEPAGE' | translate}}"
         )
             include ../../svg/logo.svg
@@ -16,10 +16,10 @@ nav.navbar(ng-if="vm.isEnabledHeader")
             include ../../svg/logo.svg
 
         a(
-            href="https://tree.taiga.io/support/",
+            href="https://www.box.com",
             target="_blank",
-            title="{{'PROJECT.NAVIGATION.HELP_TITLE' | translate}}",
-            translate="PROJECT.NAVIGATION.HELP"
+            title="{{'PROJECT.NAVIGATION.BOX_TITLE' | translate}}",
+            translate="PROJECT.NAVIGATION.BOX"
         )
 
     div.nav-right(ng-if="!vm.isAuthenticated")
@@ -44,13 +44,6 @@ nav.navbar(ng-if="vm.isEnabledHeader")
             title="{{'PROJECT.NAVIGATION.DASHBOARD_TITLE' | translate}}"
         )
             tg-svg(svg-icon="icon-dashboard")
-
-        a(
-            href="#",
-            tg-nav="discover",
-            title="{{'PROJECT.NAVIGATION.DISCOVER_TITLE' | translate}}",
-        )
-            tg-svg(svg-icon="icon-discover")
 
         div.topnav-dropdown-wrapper(ng-show="vm.projects.size", tg-dropdown-project-list)
         div.topnav-dropdown-wrapper(tg-dropdown-user)
