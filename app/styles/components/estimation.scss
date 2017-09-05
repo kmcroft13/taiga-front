@@ -4,7 +4,7 @@
         flex-direction: column;
     }
     .ticket-role-points {
-        background: rgba($gray-light, .2);
+        background: rgba($primary-light, .2);
         color: $gray-light;
         display: flex;
         flex: 1;
@@ -16,7 +16,7 @@
         &.clickable {
             &:hover,
             &.active {
-                background: rgba($primary-light, .9);
+                background: rgba($primary-dark, .9);
                 color: $whitish;
                 .points,
                 .role,
@@ -27,7 +27,7 @@
             }
         }
         &:last-child {
-            background: rgba($primary-dark, .5);
+            background: rgba($green-japanese-laurel, .5);
             border-bottom: 0;
             color: $whitish;
             .points,
