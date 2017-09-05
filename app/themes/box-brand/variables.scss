@@ -28,13 +28,12 @@ $card: #DDE6ED;
 $card-hover: #C3D1D9;
 $card-dark: #8EA6B2;
 
-$green-japanese-laurel: #009688;
-$green-olive: #cddc39;
+$marine-green: #0061D5;
 $red-amaranth: #FC627A;
 $purple-eggplant: #9c27b0;
 $yellow-pear: #ffc107;
 
-$tribe-primary: #107a8a;
+$tribe-primary: #5FC9CF;
 $tribe-secondary: darken($tribe-primary, 10%);
 
 $top-icon-color: $white;
@@ -44,7 +43,7 @@ $code-bg: #272822;
 /* Overwrite mixins */
 
 @mixin triangled-bg {
-    background: url('https://lh4.googleusercontent.com/-k7YewfrSQ_Q/VGdNZND0NBI/AAAAAAAAD1A/UDZBeSGR7iM/w1465-h824-no/Ultimate%2BMaterial%2BLollipop%2BCollection%2B-%2B480') no-repeat center center;
+    background: url('https://cloud.box.com/shared/static/8tiuzq99vbpmyx3sgngspmjlewwx0m1n.jpg') no-repeat center center;
     background-size: cover;
 }
 

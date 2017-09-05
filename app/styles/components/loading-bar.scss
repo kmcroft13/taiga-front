@@ -13,7 +13,7 @@
         height: 5px;
     }
 
-    $colors-list: $yellow-pear $green-japanese-laurel $red-amaranth $purple-eggplant $green-olive;
+    $colors-list: $primary $red-amaranth $purple-eggplant $marine-green;
     @each $current-color in $colors-list {
         $i: index($colors-list, $current-color) - 1;
         .item-#{$i} {
