@@ -35,7 +35,9 @@ describe "homeProjectListDirective", () ->
 
     _mockTgCurrentUserService = () ->
         mocks.currentUserService = {
-            projects: projects
+            projects: projects,
+            canCreatePublicProjects: sinon.stub().returns({valid: true}),
+            canCreatePrivateProjects: sinon.stub().returns({valid: true})
         }
 
         provide.value "tgCurrentUserService", mocks.currentUserService
